@@ -1,0 +1,159 @@
+/* Your custom CSS goes here, enjoy! */
+
+
+/*
+
+Fosscord Web user.css broken features remover
+V0.1.0
+
+ */
+
+/* Hides the qr login */
+.qrLoginInner-1phtZ_ {
+  display:none !important; 
+}
+
+.qrLogin-1ejtpI {
+  display: none !important;
+}
+
+.transitionGroup-bPT0qU {
+  display: none !important;
+}
+
+/* Hides the artwork and discord logo on login */
+.artwork-L5TAwQ {
+  display: none !important;
+}
+
+.logo-2Rw1Ex {
+  display: none !important;
+}
+
+.logo-3ac3fP {
+  display: none !important;
+}
+
+/* Removes all thread things, as they aren't functional yet */
+/* Thread button icon */
+/* No matter how hard I try I can't remove just the thread icon */
+
+/* View threads button */
+.icon-1ELUnB > svg:nth-child(1) {
+  display: none !important;
+}
+
+/* Thread bar */
+div.container-3XgAHv:nth-child(6) {
+  display: none !important;
+}
+
+/* Removes "download the mobile app" since mobile apps can't connect to fosscord instances*/
+div.cardWrapper-2fBdfM:nth-child(5) {
+  display: none !important;
+}
+
+/* Removes nitro boosting buttons */
+
+.actions-b9dB88 {
+  display: none !important;
+}
+
+/* removes buy nitro buttons */
+.buttonsCenter-21Ab-2 {
+  display: none !important;
+}
+
+/* removes nitro classic buy buttons */
+.buttons-19uowm {
+  display: none !important;
+}
+
+/* Removes nitro menu in the main screen */
+li.channel-1Shao0:nth-child(3) {
+  display: none !important;
+}
+
+/* Removes all billing options in the user settings */
+/* Seperator */
+div.separator-2wx7h6:nth-child(8) {
+  display: none !important;
+}
+
+/* Billing settings text */
+div.header-2Kx1US:nth-child(9) {
+  display: none !important;
+}
+
+/* Nitro */
+div.item-3XjbnG:nth-child(10) {
+  display: none !important;
+}
+
+/* Server boost */
+div.item-3XjbnG:nth-child(11) {
+  display: none !important;
+}
+
+/* Subscriptions */
+div.item-3XjbnG:nth-child(12) {
+  display: none !important;
+}
+
+/* Gift inventory */
+div.item-3XjbnG:nth-child(13) {
+  display: none !important;
+}
+
+/* Billing */
+div.item-3XjbnG:nth-child(14) {
+  display: none !important;
+}
+
+/* End of the billing options */
+
+/* Removes hypesquad since that isn't implemented */
+div.item-3XjbnG:nth-child(32) {
+  display: none !important;
+}
+
+/* Removes everything that uses the small nitro icon */
+.nitroWheel-2eWO10 {
+  display: none !important;
+}
+
+.nitroWheel-21E85D {
+  display: none !important;
+}
+
+/* removes custom server url element */
+div.item-3XjbnG:nth-child(9) {
+  display: none!important;
+}
+
+/* removes "server boost status"*/
+.serverBoostTabItem-3QwA3W {
+  display: none!important;
+}
+
+div.separator-2wx7h6:nth-child(18) {
+  display: none!important;
+}
+
+/* Removes unusable boost features in the server options */
+#overview-tab > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) {
+  display: none!important;
+}
+
+/* Removes server boosts from guild poput */
+scroller-1bVxF5 > div:nth-child(1) {
+  display: none!important;
+}
+
+#guild-header-popout-premium-subscribe {
+  display: none!important;
+}
+
+div.separator-1So4YB:nth-child(2) {
+  display: none!important;
+}
